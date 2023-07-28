@@ -1,0 +1,29 @@
+.cuerpo{
+    width: 300px;
+    padding: 5px;
+    background-color: #bdc0c1;
+    margin: 0 auto;
+}
+.btnCalcular{
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    background-color: #f4e807;
+    
+}
+input[type="text"]{
+    display: block;
+    margin: 3px;
+    padding: 5px;
+    width: 280px;
+   
+}
+.respuesta{
+    margin: 0 auto;
+    width: 300px;
+    padding: 5px;
+    color:#e5e4e8;
+    background-color: #e7482c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

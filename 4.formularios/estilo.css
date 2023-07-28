@@ -1,0 +1,32 @@
+form{
+  width: 400px; 
+  padding: 5px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.frmInput{
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.btnCancelar{
+    padding: 7px;
+    margin-top: 5px;
+
+}
+.btnEnviar{
+    padding: 7px;
+    margin-top: 5px;
+    background-color: #0adf0a;
+    border: 1px solid black
+}
+
+.resultado{
+    padding: 10px;
+    font-size: 30px;
+}
