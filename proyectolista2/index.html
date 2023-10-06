@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>::: App lista de tareas :::</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/bootstrap-icons-1.10.5/font/bootstrap-icons.min.css" />
+    <!--  <link rel="stylesheet" href="./assets/css/alertify.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1>LISTA DE TAREAS</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Id</label>
+            <input type="text" class="form-control" id="id" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Tarea</label>
+            <input type="text" class="form-control" id="tarea" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Detalle</label>
+            <input type="text" class="form-control" id="detalle" />
+          </div>
+          <button class="btn btn-primary" id="btnGuardar" onclick="guardar()">Enviar</button>
+        </div>
+        <div class="col-6">
+          <table class="table" id="miTabla">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Tarea</th>
+                <th scope="col">Detalle</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!--  <script src="./assets/js/alertify.min.js"></script> -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
