@@ -12,5 +12,4 @@
 
 > La perseverancia es la base de todas las acciones (Lao Tzu)
 
-> [!NOTE]
 > Walter Arias || waltarias@outlook.com
