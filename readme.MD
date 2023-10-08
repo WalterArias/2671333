@@ -1,11 +1,11 @@
 # EJEMPLOS DE CODIGO PARA ADSO 2671333
 
-## Sitios reomendados para profundizar
+## Sitios recomendados para profundizar
 
-Documentacion de Mozilla (Firefox)
+Documentación de Mozilla (Firefox)
 [MDN] (https://developer.mozilla.org/es/docs/Learn/JavaScript)
 
-Libro Online de Marijn Haverbeke **_Recomendado _**
+Libro Online de Marijn Haverbeke
 [ELOQUENT](https://eloquentjavascript.net/)
 
 ### Motivación
