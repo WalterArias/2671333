@@ -53,18 +53,33 @@ const mostrar = () => {
 
 // SERIALIZAR DE TEXTO A OBJETO
 
-const serializarJson = () => {
+/* const serializarJson = () => {
   let texto = '{"id":9,"nombre": "Juancito","estado":true}';
   console.log(texto);
   let json = JSON.parse(texto);
   console.log(json);
 };
-
+ */
 // serializar de objeto a texto
 
-const serializarTxt = () => {
+/* const serializarTxt = () => {
   let objeto = { id: 89, nombre: "Jorge", edad: 30, estado: true };
   console.log(objeto);
   let texto = JSON.stringify(objeto);
   console.log(texto);
-};
+}; */
+
+//================================================
+// SUPEROBJETO OBJECT
+
+let equipos = [
+  { nombre: "Celtics", fundado: 1946, campeonatos: 17 },
+  { nombre: "Lakers", fundado: 1946, campeonatos: 17 },
+  { nombre: "Bulls", fundado: 1966, campeonatos: 6 },
+  { nombre: "Pistons", fundado: 1941, campeonatos: 3 },
+];
+
+let keys = Object.keys(equipos);
+let entradas = Object.entries(equipos);
+let valores = Object.values(equipos);
+console.log(valores);

@@ -13,44 +13,48 @@
 
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <h1>LISTA DE TAREAS</h1>
-        </div>
+      <div class="row mx-auto p-2">
+        <h1 class="bg-dark bg-gradient p-4 text-white">LISTA DE TAREAS</h1>
       </div>
       <div class="row">
         <div class="col-6">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Id</label>
-            <input type="text" class="form-control" id="id" />
+          <div class="card text-bg-light mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Nueva Tarea</h5>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Tarea</label>
+                <input type="text" class="form-control" id="tarea" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Detalle</label>
+                <input type="text" class="form-control" id="detalle" />
+              </div>
+              <button class="btn btn-success" id="btnGuardar" onclick="crear()">Enviar</button>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Tarea</label>
-            <input type="text" class="form-control" id="tarea" />
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Detalle</label>
-            <input type="text" class="form-control" id="detalle" />
-          </div>
-          <button class="btn btn-primary" id="btnGuardar" onclick="guardar()">Enviar</button>
         </div>
         <div class="col-6">
-          <table class="table" id="miTabla">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Tarea</th>
-                <th scope="col">Detalle</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tareas</h5>
+              <table class="table table-striped" id="miTabla">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tarea</th>
+                    <th scope="col">Detalle</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <!--  <script src="./assets/js/alertify.min.js"></script> -->
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
