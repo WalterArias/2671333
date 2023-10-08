@@ -1,9 +1,9 @@
-# EJEMPLOS DE CODIGO PARA ADSO 2671333 :: SENA ::
+# JS => 2671333 :: SENA ::
 
 ## Sitios recomendados para profundizar
 
 :+1: Documentación de Mozilla (Firefox)
-[MDN] (https://developer.mozilla.org/es/docs/Learn/JavaScript)
+[MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript)
 
 :+1: Libro Online de Marijn Haverbeke
 [ELOQUENT](https://eloquentjavascript.net/)
