@@ -8,6 +8,6 @@ fetch("https://jsonplaceholder.typicode.com/users")
   })
   .then((users) => {
     users.forEach((users) => {
-      console.log(users.name);
+      console.log(users.name + "--->" + users.email);
     });
   });
