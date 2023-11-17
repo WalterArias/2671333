@@ -3,7 +3,8 @@
 let aprendices = [
   {
     id: 135,
-    nombre: "Anderson Tasama",
+    nombre: "Bruce Wayne",
+    apodo: "Batman",
     edad: 20,
     estaActivo: true,
     colores: ["red", "azul", "rosado", true],
@@ -12,10 +13,6 @@ let aprendices = [
       programacion: 5,
       etica: 4.8,
     },
-  },
-  {
-    id: 200,
-    nombre: "Felipe Perez",
   },
 ];
 
