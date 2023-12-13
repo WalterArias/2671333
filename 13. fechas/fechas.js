@@ -1,22 +1,23 @@
 // forma 1 usando conversiones y el gett
 
-/* let fechaActual = new Date();
+let fechaActual = new Date(); // trae la fecha actual
+console.log(fechaActual);
 let fnmsg = fechaActual.getTime();
-console.log(fnmsg); // la fecha transformada a milisegundos
+// la fecha transformada a milisegundos
 
 /// dias a milisegundos
 let dias = 10;
 let diasmsg = dias * 24 * 60 * 60 * 1000;
- console.log(diasmsg); 
 
 let fnNueva = fnmsg + diasmsg;
+console.log(fnNueva);
 fnNueva = new Date(fnNueva);
-console.log(fnNueva); */
+console.log(fn);
 
 // forma 2 usando las funciones de la api fecha
-let fecha = new Date();
+/* let fecha = new Date();
 let dias = 10;
 
 fecha.setDate(fecha.getDate() + dias);
 
-console.log(fecha.toLocaleDateString());
+console.log(fecha.toLocaleDateString()); */
