@@ -1,0 +1,9 @@
+.fondo1 {
+  background-color: beige;
+  color: black;
+  padding: 5px;
+}
+
+.borde {
+  border: solid 4px red;
+}
